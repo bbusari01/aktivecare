@@ -4,22 +4,28 @@ import { Link } from 'react-router-dom';
 
 function Services() {
   return (
-    <Container maxW="container.xl" py={10}>
+    <Container maxW="container.xl" py={10} >
       <VStack spacing={8} align="flex-start">
         {/* Hero Section */}
-        <Box textAlign="center">
-          <Heading as="h1" size="2xl" mb={6}>Our Care Services</Heading>
-          <Text fontSize="lg" mb={6}>
-            At Aktive Care, we offer a range of personalized home care services designed to meet the unique needs of each individual.
-            From daily assistance to full-time care, our dedicated team is here to support you and your loved ones.
-          </Text>
-          <Image 
-            src="/fakecareservices.webp" 
-            alt="Care Services at Aktive Care" 
-            borderRadius="lg" 
-            mb={6}
-          />
-        </Box>
+        <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} alignItems="center">
+          <Box textAlign="center">
+            <Heading as="h1" size="2xl" mb={6}>Our Care Services</Heading>
+            <Text fontSize="lg" mb={6}>
+              At Aktive Care, we offer a range of personalized home care services designed to meet the unique needs of each individual.
+              From daily assistance to full-time care, our dedicated team is here to support you and your loved ones.
+            </Text>
+            </Box>
+          <Box>
+            <Image 
+              src="/fakecareservices.webp" 
+              alt="Care Services at Aktive Care" 
+              borderRadius="lg"
+              mb={6}
+             align="center" 
+            />
+          </Box>
+        </SimpleGrid>
+        
 
         {/* Services List */}
         <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={10}>

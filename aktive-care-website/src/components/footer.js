@@ -28,15 +28,15 @@ const Footer = () => {
             <Text>At Aktive Care, we believe that life happens at home.</Text>
             <Box display="flex" align="center">
               <Icon as={FaPhone} mr={2} />
-              <Link href="tel:+440000000000">+44 0000 000 000</Link>
+              <Link href="tel:+440000000000">+44 7984 055705</Link>
             </Box>
             <Box display="flex" align="center">
               <Icon as={FaEnvelope} mr={2} />
-              <Link href="mailto:careteam@aktivecare.co.uk">careteam@aktivecare.co.uk</Link>
+              <Link href="mailto:careteam@aktivecare.co.uk">{/*must add number*/}</Link>
             </Box>
             <Box display="flex" align="center">
               <Icon as={FaMapMarkerAlt} mr={2} />
-              <Text>63/66 Hatton Garden, Fifth Floor Suite 23, London, EC1N 8LE</Text>
+              <Text>100 Purfleet Road, Aveley, South, Ockendon, RM15 4EA</Text>
             </Box>
           </VStack>
 

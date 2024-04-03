@@ -5,7 +5,7 @@ import {
   Route,
   Link,
 } from 'react-router-dom';
-import { Flex, Button, Box, Image, IconButton, Collapse, useDisclosure} from '@chakra-ui/react';
+import { Flex, Button, Box, Image, Text, IconButton, Collapse, useDisclosure} from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 import Home from './components/home.js'; 
 import About from './components/about.js'; 
@@ -19,8 +19,8 @@ function NavBar() {
   return (
     <Flex as="header" align="center" justify="space-between" padding="4" bg="teal.500" color="white">
       
-      <Box>
-          <Image src="/aktivecare-logo.png" alt="Logo" maxH="50px" />
+      <Box bg='white' maxW="100%">
+          <Image src="/aktivecare-logo.png" alt="Logo" maxH="100px" />
       </Box>
       <Box display={{ base: 'none', md: 'block' }}>
         {/* These buttons will be visible on medium and larger screens */}
@@ -40,7 +40,7 @@ function NavBar() {
         <Flex
           direction="column"
           bg="white" // Slightly darker to stand out from the main header
-          p={2}
+          p={3}
           display={{ md: 'none' }}
         >
           <Button as={Link} to="/" colorScheme="teal" variant="ghost" onClick={onToggle}>Home</Button>
