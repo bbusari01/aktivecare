@@ -64,6 +64,7 @@ const Footer = () => {
             <Text>We also operate an out of hours on-call service.</Text>
             <Button colorScheme="teal" size="sm">Call Us Today</Button>
           </VStack>
+          
         </SimpleGrid>
         {/* Bottom Text */}
         <Box pt={5} borderTopWidth={1} borderTopColor={useColorModeValue('gray.200', 'gray.700')}>
