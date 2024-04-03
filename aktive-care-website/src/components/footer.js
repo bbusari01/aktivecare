@@ -13,7 +13,7 @@ import {
   SimpleGrid,
   Icon,
 } from '@chakra-ui/react';
-import { FaFacebook, FaLinkedin, FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
+import { FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 
 const Footer = () => {
   return (
