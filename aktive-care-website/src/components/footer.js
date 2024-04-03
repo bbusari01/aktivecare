@@ -28,7 +28,7 @@ const Footer = () => {
             <Text>At Aktive Care, we believe that life happens at home.</Text>
             <Box display="flex" align="center">
               <Icon as={FaPhone} mr={2} />
-              <Link href="tel:+440000000000">+44 7984 055705</Link>
+              <Link href="tel:+447984055705">+44 7984 055705</Link>
             </Box>
             <Box display="flex" align="center">
               <Icon as={FaEnvelope} mr={2} />
