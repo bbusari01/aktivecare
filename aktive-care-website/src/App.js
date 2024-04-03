@@ -5,12 +5,13 @@ import {
   Route,
   Link,
 } from 'react-router-dom';
-import { Flex, Button, Box, Image, IconButton, Collapse, useDisclosure } from '@chakra-ui/react';
+import { Flex, Button, Box, Image, IconButton, Collapse, useDisclosure} from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 import Home from './components/home.js'; 
 import About from './components/about.js'; 
 import Services from './components/services.js'; 
 import NotFound from './NotFound.js';
+import Footer from './components/footer.js';
 
 function NavBar() {
   const { isOpen, onToggle } = useDisclosure();
@@ -62,6 +63,7 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );
