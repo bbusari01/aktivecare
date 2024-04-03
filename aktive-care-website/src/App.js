@@ -5,7 +5,7 @@ import {
   Route,
   Link,
 } from 'react-router-dom';
-import { Flex, Button, Box, Image, Text, IconButton, Collapse, useDisclosure} from '@chakra-ui/react';
+import { Flex, Button, Box, Image, IconButton, Collapse, useDisclosure} from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 import Home from './components/home.js'; 
 import About from './components/about.js'; 
