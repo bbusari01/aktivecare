@@ -65,7 +65,6 @@ const Footer = () => {
             <Button colorScheme="teal" size="sm">Call Us Today</Button>
           </VStack>
         </SimpleGrid>
-
         {/* Bottom Text */}
         <Box pt={5} borderTopWidth={1} borderTopColor={useColorModeValue('gray.200', 'gray.700')}>
           <Text textAlign="center" fontSize="sm">© {new Date().getFullYear()} Aktive Care. All rights reserved.</Text>
