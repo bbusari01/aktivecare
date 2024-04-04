@@ -60,7 +60,7 @@ const Footer = () => {
           {/* Open Hours */}
           <VStack align="flex-start">
             <Heading size="md">Open Hours</Heading>
-            <Text>8:30 AM - 5 PM, Monday - Friday</Text>
+            <Text>8:30 AM - 7 PM, Monday - Saturday</Text>
             <Text>We also operate an out of hours on-call service.</Text>
             <Button colorScheme="teal" size="sm">Call Us Today</Button>
           </VStack>
